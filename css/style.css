@@ -1,0 +1,336 @@
+:root{
+    --main-color:#20c997;
+}
+
+*{
+    font-family:  Poppins, sans-serif;
+}
+
+/* Start helpers classes */
+.opacity-8 {opacity: .8;}
+.opacity-1 {opacity: .1;}
+.main-color{color: var(--main-color);}
+.active{color: var(--main-color) !important;}
+.primary{background-color: var(--main-color);}
+.bg-dark {background-color: #111418 !important;}
+.font-small{font-size: 10px;}
+.address h1{font-size:5rem;}
+.border-primary{border-bottom: 2px var(--main-color) solid !important;}
+/* End helpers classes */
+
+
+/*start navbar*/
+/* navBar and Social media hovers */
+.fa-twitter:hover:hover{color: #00acee;}
+.fa-dribbble:hover{color: #ea4c89;}
+.fa-facebook-f:hover{color: #3b5998;}
+.nav-item a:hover{color: var(--main-color) !important;}
+
+/* for toggler icon */
+.navbar-toggler span{
+    height: 3px;
+    width: 25px;
+}
+/*end navbar*/
+
+
+
+/*start Hero section */
+.hero{
+    background: url('../images/intro-bg.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h1{
+    font-weight: 600;
+}
+
+.hero .mainText h1{
+    position: relative;
+    height: 100px;
+    font-size: calc(1.525rem + 3.3vw) !important;
+}
+
+.hero .mainText h1::after{
+    position: absolute;
+    content: '|';
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    padding: 0;
+    margin: 0;
+    animation: mainAnimation 12s infinite ;
+}
+
+/* start key frame for typer section */
+@keyframes mainAnimation {
+    0%{content: "|";}
+    1%{content: "I|";}
+    2%{content: "I'|";}
+    3%{content: "I'm|";}
+    4%{content: "I'm |";}
+    5%{content: "I'm S|";}
+    6%{content: "I'm Si|";}
+    7%{content: "I'm Sim|";}
+    8%{content: "I'm Simo|";}
+    9%{content: "I'm Simon|";}
+    10%{content: "I'm Simone|";}
+    11%{content: "I'm Simone |";}
+    12%{content: "I'm Simone O|";}
+    13%{content: "I'm Simone Ol|";}
+    14%{content: "I'm Simone Oli|";}
+    15%{content: "I'm Simone Oliv|";}
+    16%{content: "I'm Simone Olivi|";}
+    17%{content: "I'm Simone Olivia|";}
+    18%{content: "I'm Simone Olivia.|";}
+    18.5%{content: "I'm Simone Olivia|";}
+    19%{content: "I'm Simone Olivi|";}
+    19.5%{content: "I'm Simone Oliv|";}
+    20%{content: "I'm Simone Oli|";}
+    20.5%{content: "I'm Simone Ol|";}
+    21%{content: "I'm Simone O|";}
+    21.5%{content: "I'm Simone |";}
+    22%{content: "I'm Simone|";}
+    22.5%{content: "I'm Simon|";}
+    23%{content: "I'm Simo|";}
+    23.5%{content: "I'm Sim|";}
+    24%{content: "I'm Si|";}
+    24.5%{content: "I'm S|";}
+    25%{content: "I'm |";}
+    25.5%{content: "I'm|";}
+    26%{content: "I'|";}
+    26.5%{content: "I|";}
+    27%{content: "|";}
+
+    27%{content: "|";}
+    28%{content: "I|";}
+    29%{content: "I'|";}
+    30%{content: "I'm|";}
+    31%{content: "I'm |";}
+    32%{content: "I'm a|";}
+    33%{content: "I'm a |";}
+    34%{content: "I'm a F|";}
+    35%{content: "I'm a Fr|";}
+    36%{content: "I'm a Fre|";}
+    37%{content: "I'm a Free|";}
+    38%{content: "I'm a Freel|";}
+    39%{content: "I'm a Freela|";}
+    40%{content: "I'm a Freelan|";}
+    41%{content: "I'm a Freelanc|";}
+    42%{content: "I'm a Freelance|";}
+    43%{content: "I'm a Freelancer|";}
+    44%{content: "I'm a Freelancer.|";}
+    44.5%{content: "I'm a Freelancer|";}
+    45%{content: "I'm a Freelance|";}
+    45.5%{content: "I'm a Freelanc|";}
+    46%{content: "I'm a Freelan|";}
+    46.5%{content: "I'm a Freela|";}
+    47%{content: "I'm a Freel|";}
+    47.5%{content: "I'm a Free|";}
+    48%{content: "I'm a Fre|";}
+    48.5%{content: "I'm a Fr|";}
+    49%{content: "I'm a F|";}
+    49.5%{content: "I'm a |";}
+    50%{content: "I'm a|";}
+    50.5%{content: "I'm |";}
+    51%{content: "I'm|";}
+    51.5%{content: "I'|";}
+    52%{content: "I|";}
+    52.5%{content: "|";}
+
+    52.5%{content: "|";}
+    53.5%{content: "I|";}
+    54.5%{content: "I'|";}
+    55.5%{content: "I'm|";}
+    56.5%{content: "I'm |";}
+    57.5%{content: "I'm a|";}
+    58.5%{content: "I'm a |";}
+    59.5%{content: "I'm a P|";}
+    60.5%{content: "I'm a Ph|";}
+    61.5%{content: "I'm a Pho|";}
+    62.5%{content: "I'm a Phot|";}
+    63.5%{content: "I'm a Photo|";}
+    64.5%{content: "I'm a Photog|";}
+    65.5%{content: "I'm a Photogr|";}
+    66.5%{content: "I'm a Photogra|";}
+    67.5%{content: "I'm a Photograp|";}
+    68.5%{content: "I'm a Photograph|";}
+    69.5%{content: "I'm a Photographe|";}
+    70.5%{content: "I'm a Photographer|";}
+    71.5%{content: "I'm a Photographer.|";}
+    72%{content: "I'm a Photographer|";}
+    72.5%{content: "I'm a Photographe|";}
+    73%{content: "I'm a Photograph|";}
+    73.5%{content: "I'm a Photograp|";}
+    74%{content: "I'm a Photogra|";}
+    74.5%{content: "I'm a Photogr|";}
+    75%{content: "I'm a Photog|";}
+    75.5%{content: "I'm a Photo|";}
+    76%{content: "I'm a Phot|";}
+    76.5%{content: "I'm a Pho|";}
+    77%{content: "I'm a Ph|";}
+    77.5%{content: "I'm a P|";}
+    78%{content: "I'm a |";}
+    78.5%{content: "I'm a|";}
+    79%{content: "I'm |";}
+    79.5%{content: "I'm|";}
+    80%{content: "I'|";}
+    80.5%{content: "I|";}
+    81%{content: "|";}
+
+    81%{content: "|";}
+    82%{content: "I|";}
+    83%{content: "I'|";}
+    84%{content: "I'm|";}
+    85%{content: "I'm |";}
+    86%{content: "I'm a|";}
+    87%{content: "I'm a |";}
+    88%{content: "I'm a D|";}
+    89%{content: "I'm a De|";}
+    90%{content: "I'm a Des|";}
+    91%{content: "I'm a Desi|";}
+    92%{content: "I'm a Desig|";}
+    93%{content: "I'm a Design|";}
+    94%{content: "I'm a Designe|";}
+    95%{content: "I'm a Designer|";}
+    96%{content: "I'm a Designer.|";}
+    96.2%{content: "I'm a Designer|";}
+    96.6%{content: "I'm a Designe|";}
+    96.9%{content: "I'm a Design|";}
+    97.2%{content: "I'm a Desig|";}
+    97.6%{content: "I'm a Desi|";}
+    97.9%{content: "I'm a Des|";}
+    98.2%{content: "I'm a De|";}
+    98.6%{content: "I'm a D|";}
+    98.9%{content: "I'm a |";}
+    99%{content: "I'm a|";}
+    99.2%{content: "I'm |";}
+    99.3%{content: "I'm|";}
+    99.7%{content: "I'|";}
+    99.9%{content: "I|";}
+    100%{content: "|";}
+}
+/* End key frame for typer section */
+
+/* arrow to scroll down automatic and see more */
+.arrow{
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    animation: arrowDown 1.5s infinite ;
+}
+
+/* keyframes for the arrow */
+@keyframes arrowDown {
+    0%{
+        top: 330%;
+        opacity: 0;
+    }
+    100%{
+        top: 390%;
+        opacity: 1;
+    }
+}
+/*end Hero section*/
+
+/*buttons*/
+
+.btn-outline-primary{
+    background-color: transparent;
+}
+
+.btn-outline-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color)!important;
+    color: white;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color)!important;
+    color: white;
+}
+
+
+/* start classes for any title of any section*/
+.addressTop{
+    position: relative; 
+}
+
+.address::after{
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 80px;
+    height: 2px;
+    transform: translate(-50%,-50%);
+    background-color: #20c997;
+}
+/*end classes for any title of any section*/
+
+
+.pText{
+    line-height: 1.8;
+}
+
+
+.stat h4{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/*start portfolio section*/
+.mask{
+    background-color: #000000a3;
+    opacity: 0;
+    transition: 0.3s all ;
+}
+
+.mask:hover{
+    opacity: 1;
+}
+
+.projectDetails{
+    opacity: 0;
+    transition: 0.3s all ;
+}
+
+.image{
+    overflow: hidden;
+
+}
+
+.image img{ 
+    transition: all 0.3s;
+}
+
+.image:hover img{
+    filter: blur(2px);
+    transform: scale(1.1);
+}
+
+.image:hover .projectDetails{
+    opacity: 1;
+}
+
+.main{
+    width: fit-content;
+}
+/*end portfolio section*/
+
+
+/* start back to top button */
+.backToTop{
+    background-color: rgba(0, 0, 0, .2);
+    transition: all 0.3s;
+}
+
+.backToTop:hover{
+    background-color: var(--main-color);
+}
+/* end back to top button */
+
