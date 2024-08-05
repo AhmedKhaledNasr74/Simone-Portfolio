@@ -14,7 +14,7 @@
 .primary{background-color: var(--main-color);}
 .bg-dark {background-color: #111418 !important;}
 .font-small{font-size: 10px;}
-.address h1{font-size:5rem;}
+.address h1{font-size:4rem;}
 .border-primary{border-bottom: 2px var(--main-color) solid !important;}
 /* End helpers classes */
 
